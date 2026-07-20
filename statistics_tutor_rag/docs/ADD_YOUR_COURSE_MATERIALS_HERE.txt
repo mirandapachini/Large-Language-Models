@@ -1,0 +1,202 @@
+Place course PDFs, Word files, PowerPoint files, text/Markdown notes, CSV files, or Excel workbooks in this folder.
+
+The application will index supported files when it starts. After adding or replacing files while the app is open, click "Rebuild knowledge base" in the sidebar.
+
+Important limitations:
+- Image-only or scanned PDFs need OCR before their text can be retrieved.
+- RAG retrieves relevant excerpts; it does not automatically perform exact calculations over an entire spreadsheet.
+- Do not add confidential student records or restricted data.
+NLP in Data Analytics: How It Works and Why It Matters
+Natural Language Processing (NLP) is a subfield of artificial intelligence that enables computers to understand, interpret, and generate human language. In data analytics, NLP acts as a bridge between unstructured text — such as emails, social media posts, customer reviews, and support tickets — and structured, actionable insights Business Analysis Blog+1.
+
+How NLP Works in Analytics
+NLP systems process text through several key steps:
+
+Tokenization – Breaking sentences into words or phrases so each unit can be analyzed individually Business Analysis Blog.
+
+Stemming/lemmatization – Reducing words to their root form to normalize variations (e.g., “running” → “run”) Business Analysis Blog.
+
+Part-of-speech tagging – Identifying the grammatical role of each word (noun, verb, adjective, etc.) Business Analysis Blog.
+
+Named Entity Recognition (NER) – Extracting key entities like names, dates, locations, and products Business Analysis Blog+1.
+
+Sentiment and topic modeling – Determining emotions, attitudes, and recurring themes in large datasets blog.nobledesktop.com+1.
+
+These steps transform raw text into structured data that analytics tools can query, visualize, and interpret.
+
+Key Uses in Data Analytics
+Text classification – Automatically categorizing documents, reviews, or tickets blog.nobledesktop.com.
+
+Sentiment analysis – Measuring customer satisfaction from open-ended feedback blog.nobledesktop.com.
+
+Topic modeling – Identifying themes in large document collections without manual tagging blog.nobledesktop.com.
+
+Natural language queries – Letting users ask questions in plain English and get analytics results OvalEdge.
+
+Entity extraction – Pulling out important entities from unstructured text blog.nobledesktop.com.
+Benefits
+Democratizes analytics – Non-technical users can explore data without SQL or coding iabac.org.
+
+Handles unstructured data – Extracts insights from emails, social media, and surveys Sigma Computing+1.
+
+Speeds up decision-making – Enables real-time or near-real-time analysis of large text volumes OvalEdge.
+
+Improves accuracy – Uses machine learning and deep learning to detect context and meaning beyond keywords blog.nobledesktop.com+1.
+
+Tools and Platforms
+Popular NLP tools for analytics include:
+
+Conversational BI platforms – Allow natural language queries to generate dashboards OvalEdge.
+
+Text analytics software – For sentiment, topic, and entity analysis OvalEdge.
+
+AI-powered analytics suites – Integrate NLP with visualization and reporting OvalEdge.
+
+Why It’s Growing
+The global NLP market is projected to reach $164.9 billion by 2031, growing at 29.2% CAGR OvalEdge. As organizations face a “data deluge,” NLP is becoming essential for turning vast amounts of unstructured text into clear, actionable insights.
+
+In short: NLP in data analytics is transforming how businesses extract meaning from text, making analytics more accessible, accurate, and efficient — especially for non-technical stakeholders Business Analysis Blog+2.
+Understanding BLEU and ROUGE Scores in NLP Data Analytics
+BLEU and ROUGE are widely used automatic metrics in NLP to quantify how closely machine-generated text matches human reference text, with BLEU focusing on translation and ROUGE on summarization.
+
+BLEU Score (Bilingual Evaluation Understudy)
+Purpose: Primarily used for machine translation to measure how closely a machine-generated translation matches one or more human reference translations GeeksForGeeks.
+How it works:
+
+Compares n-grams (unigrams, bigrams, trigrams, etc.) between candidate and reference text.
+
+Calculates precision for each n-gram level.
+
+Applies a brevity penalty (BP) to penalize overly short translations:
+
+\(BP = \begin{cases} \)1&if c>r e(1−r/c)&if c≤r \end{cases}
+where 
+c
+ = candidate length, 
+r
+ = reference length GeeksForGeeks.
+
+Combines n-gram precisions into a single score using a weighted geometric mean:
+B
+L
+E
+U
+=
+B
+P
+·
+exp
+(
+∑
+n
+=
+1
+N
+w
+n
+log
+P
+n
+)
+Range: 0–1, with 1 indicating perfect match GeeksForGeeks.
+
+Strengths: Simple, fast, correlates well with human judgment for translation tasks.
+
+Limitations: Focuses on surface-level word matches; may miss meaning or fluency Medium.
+
+ROUGE Score (Recall-Oriented Understudy for Gisting Evaluation)
+Purpose: Mainly used for text summarization and other generation tasks to measure recall of important information from references GeeksForGeeks+1.
+
+How it works:
+
+Measures overlap between candidate and reference text, often using n-gram precision, recall, and F1.
+
+Common variants:
+
+ROUGE-N: n-gram overlap (e.g., ROUGE-1 for unigrams).
+
+ROUGE-L: Longest common subsequence (LCS) alignment, capturing sequence-level matches suhasbhairav.com.
+
+Precision: Matches / total in candidate.
+
+Recall: Matches / total in reference.
+
+F1: Harmonic mean of precision and recall.
+
+Range: 0–1, with 1 indicating perfect recall GeeksForGeeks.
+
+Strengths: Good for summarization; captures both exact matches and sequence alignment.
+
+Limitations: Also surface-level; may not capture meaning well suhasbhairav.com.
+When to Use Each
+Choose BLEU for translation-style tasks where exact phrase reproduction is important.
+
+Choose ROUGE for summarization or content extraction where capturing key information is the goal suhasbhairav.com.
+
+Practical Considerations
+In production, BLEU and ROUGE are often run alongside human evaluation and task-specific metrics to avoid over-reliance on surface-level matches suhasbhairav.com.
+
+Multiple variants (e.g., BLEU-4, ROUGE-L) are tested across data slices to ensure robustness suhasbhairav.com.
+
+These scores are objective, scalable, and easy to automate, making them valuable for monitoring model performance in NLP pipelines GeeksForGeeks.
+
+In summary: BLEU and ROUGE are foundational NLP evaluation metrics—BLEU for translation precision with brevity penalty, ROUGE for recall-based summarization. Together, they provide a quick, automated way to compare generated text against references, though they should be complemented with human judgment and task-specific measures for a complete picture.
+NLP Data Analytics with Embeddings
+In NLP data analytics, embeddings convert words or phrases into dense numerical vectors that capture semantic and contextual meaning, enabling richer text analysis and machine learning.
+
+What Are Embeddings in NLP?
+Word embeddings are numeric representations of words in a lower-dimensional space that preserve semantic and syntactic relationships GeeksForGeeks. They allow similar words to have similar vector representations, enabling similarity measures like cosine similarity to be computed GeeksForGeeks.
+
+Why Use Embeddings in Data Analytics?
+Semantic representation: Capture meaning beyond simple keywords GeeksForGeeks.
+
+Dimensionality reduction: More compact than one-hot encodings, improving model efficiency GeeksForGeeks.
+
+Contextual understanding: Reflect how words are used in surrounding text GeeksForGeeks.
+
+Improved performance: Often outperform traditional methods (e.g., TF-IDF) in tasks like classification, sentiment analysis, and translation GeeksForGeeks.
+
+Transfer learning: Pre-trained embeddings (Word2Vec, GloVe, BERT) can boost performance with limited data GeeksForGeeks.
+
+Key Embedding Techniques
+Frequency-based embeddings
+
+Examples: TF-IDF, Count Vectorizer.
+
+Focus on word frequency and importance in a corpus GeeksForGeeks.
+
+Prediction-based embeddings
+
+Examples: Word2Vec, GloVe, FastText.
+
+Learn vectors by predicting surrounding words or predicting a word from its context GeeksForGeeks+1.
+
+Contextual embeddings
+
+Examples: BERT, Sentence-BERT.
+
+Generate different vectors for the same word depending on context Medium.
+
+Applications in NLP Data Analytics
+Sentiment analysis: Embeddings capture sentiment-bearing words and phrases.
+
+Named entity recognition: Identify and classify entities like people, places, organizations.
+
+Machine translation: Represent source and target language words in vector space.
+
+Document clustering: Group similar documents based on embedding similarity ucdavisdatalab.github.io.
+
+Information retrieval: Rank documents by semantic relevance.
+
+How They Work
+The distributional hypothesis (“you shall know a word by the company it keeps”) underpins many embeddings: words appearing in similar contexts get similar vectors ucdavisdatalab.github.io.
+For example, in Word2Vec, a word’s vector is learned by predicting the words that follow it (CBOW) or the words that precede it (Skip-gram).
+
+Practical Considerations
+Bias: Embeddings can inherit biases from training data; debiasing techniques exist ucdavisdatalab.github.io.
+
+Out-of-vocabulary (OOV) handling: Use subword models (e.g., FastText) or embeddings trained on large corpora ucdavisdatalab.github.io.
+
+Model choice: Static embeddings (Word2Vec, GloVe) vs. contextual (BERT) depend on task needs.
+
+In summary, embeddings are a cornerstone of modern NLP data analytics, enabling machines to understand and process human language more effectively by transforming text into meaningful numerical representations GeeksForGeeks+2.
