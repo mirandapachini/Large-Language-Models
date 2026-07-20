@@ -1,0 +1,35 @@
+IT Onboarding Checklist
+New Employee IT Setup Guide
+Before Day 1
+* IT will provision your laptop and email account 3 business days before your start date.
+* You will receive a welcome email with your employee ID and temporary password.
+Day 1: Account Setup
+* Log in to your laptop using the temporary password provided in your welcome email.
+* You will be prompted to create a new password. Passwords must be at least 12 characters, include one number, and one special character.
+* Set up multi-factor authentication (MFA) using the Okta Verify app on your phone.
+* Log in to your company email account (Outlook) and set up your email signature.
+Day 1: Required Software Installation
+* Slack (company communication) — sign in with your company email.
+* Zoom (video conferencing) — sign in via Single Sign-On (SSO).
+* VPN client — required for remote access to internal systems. Contact IT Help Desk for the install link if not pre-installed.
+* Password manager (1Password) — you will receive an invite link via email.
+Week 1: System Access
+* Submit an access request form for any department-specific software (e.g., Salesforce, Workday, Jira) through the IT Service Portal.
+* Access approval typically takes 1–2 business days depending on your manager's sign-off.
+* Confirm access to shared drives relevant to your team by checking with your manager.
+Hardware
+* Laptop, charger, and headset are provided on Day 1.
+* Monitor and keyboard/mouse can be requested through the IT Service Portal if working from the office.
+* Report any hardware issues to the IT Help Desk at ithelpdesk@company.com or extension 4357.
+Security Policies
+* Do not share your password with anyone, including IT staff.
+* Lock your screen (Windows key + L) whenever you step away from your desk.
+* Report suspicious emails using the "Report Phishing" button in Outlook.
+* All company data must be stored on approved cloud storage (OneDrive), not local drives or personal devices.
+Support
+* IT Help Desk hours: Monday–Friday, 8:00 AM–6:00 PM.
+* Submit tickets through the IT Service Portal for non-urgent issues.
+* Call extension 4357 for urgent, blocking issues (e.g., cannot log in, VPN not working).
+
+Save this as a .txt file in your docs folder — the plain text will chunk and embed cleanly with your existing pipeline. Want me to write the sample employee handbook excerpt or benefits guide next so you have all 2-3 documents ready?
+

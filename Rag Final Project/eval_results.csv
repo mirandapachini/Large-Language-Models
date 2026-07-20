@@ -1,0 +1,91 @@
+chunk_size,overlap,overlap_pct,top_k,question,hit_at_k,relevant_rank,avg_score_top_k,num_chunks_total,backend
+100,10,0.1,3,How many PTO days do new hires get in their first year?,1,1,0.5684,121,NumPy cosine search
+100,10,0.1,3,What is the deadline to enroll in benefits after starting?,1,1,0.5476,121,NumPy cosine search
+100,10,0.1,3,What password requirements do I need to set on Day 1?,1,1,0.4444,121,NumPy cosine search
+100,10,0.1,3,Does the company match 401(k) contributions?,1,1,0.4454,121,NumPy cosine search
+100,10,0.1,3,Who do I contact if I have a workplace conflict?,1,1,0.4115,121,NumPy cosine search
+100,10,0.1,5,How many PTO days do new hires get in their first year?,1,1,0.5408,121,NumPy cosine search
+100,10,0.1,5,What is the deadline to enroll in benefits after starting?,1,1,0.5288,121,NumPy cosine search
+100,10,0.1,5,What password requirements do I need to set on Day 1?,1,1,0.401,121,NumPy cosine search
+100,10,0.1,5,Does the company match 401(k) contributions?,1,1,0.3983,121,NumPy cosine search
+100,10,0.1,5,Who do I contact if I have a workplace conflict?,1,1,0.3846,121,NumPy cosine search
+100,10,0.1,7,How many PTO days do new hires get in their first year?,1,1,0.5172,121,NumPy cosine search
+100,10,0.1,7,What is the deadline to enroll in benefits after starting?,1,1,0.5089,121,NumPy cosine search
+100,10,0.1,7,What password requirements do I need to set on Day 1?,1,1,0.3752,121,NumPy cosine search
+100,10,0.1,7,Does the company match 401(k) contributions?,1,1,0.3719,121,NumPy cosine search
+100,10,0.1,7,Who do I contact if I have a workplace conflict?,1,1,0.3687,121,NumPy cosine search
+100,20,0.2,3,How many PTO days do new hires get in their first year?,1,1,0.5838,128,NumPy cosine search
+100,20,0.2,3,What is the deadline to enroll in benefits after starting?,1,1,0.5559,128,NumPy cosine search
+100,20,0.2,3,What password requirements do I need to set on Day 1?,1,1,0.4679,128,NumPy cosine search
+100,20,0.2,3,Does the company match 401(k) contributions?,1,1,0.4216,128,NumPy cosine search
+100,20,0.2,3,Who do I contact if I have a workplace conflict?,1,1,0.4038,128,NumPy cosine search
+100,20,0.2,5,How many PTO days do new hires get in their first year?,1,1,0.5458,128,NumPy cosine search
+100,20,0.2,5,What is the deadline to enroll in benefits after starting?,1,1,0.5303,128,NumPy cosine search
+100,20,0.2,5,What password requirements do I need to set on Day 1?,1,1,0.4185,128,NumPy cosine search
+100,20,0.2,5,Does the company match 401(k) contributions?,1,1,0.3934,128,NumPy cosine search
+100,20,0.2,5,Who do I contact if I have a workplace conflict?,1,1,0.3894,128,NumPy cosine search
+100,20,0.2,7,How many PTO days do new hires get in their first year?,1,1,0.5213,128,NumPy cosine search
+100,20,0.2,7,What is the deadline to enroll in benefits after starting?,1,1,0.5027,128,NumPy cosine search
+100,20,0.2,7,What password requirements do I need to set on Day 1?,1,1,0.387,128,NumPy cosine search
+100,20,0.2,7,Does the company match 401(k) contributions?,1,1,0.3731,128,NumPy cosine search
+100,20,0.2,7,Who do I contact if I have a workplace conflict?,1,1,0.375,128,NumPy cosine search
+180,18,0.1,3,How many PTO days do new hires get in their first year?,1,1,0.5393,74,NumPy cosine search
+180,18,0.1,3,What is the deadline to enroll in benefits after starting?,1,1,0.5313,74,NumPy cosine search
+180,18,0.1,3,What password requirements do I need to set on Day 1?,1,1,0.3996,74,NumPy cosine search
+180,18,0.1,3,Does the company match 401(k) contributions?,1,1,0.3635,74,NumPy cosine search
+180,18,0.1,3,Who do I contact if I have a workplace conflict?,1,1,0.4243,74,NumPy cosine search
+180,18,0.1,5,How many PTO days do new hires get in their first year?,1,1,0.5003,74,NumPy cosine search
+180,18,0.1,5,What is the deadline to enroll in benefits after starting?,1,1,0.4903,74,NumPy cosine search
+180,18,0.1,5,What password requirements do I need to set on Day 1?,1,1,0.3605,74,NumPy cosine search
+180,18,0.1,5,Does the company match 401(k) contributions?,1,1,0.3414,74,NumPy cosine search
+180,18,0.1,5,Who do I contact if I have a workplace conflict?,1,1,0.4113,74,NumPy cosine search
+180,18,0.1,7,How many PTO days do new hires get in their first year?,1,1,0.4641,74,NumPy cosine search
+180,18,0.1,7,What is the deadline to enroll in benefits after starting?,1,1,0.465,74,NumPy cosine search
+180,18,0.1,7,What password requirements do I need to set on Day 1?,1,1,0.3337,74,NumPy cosine search
+180,18,0.1,7,Does the company match 401(k) contributions?,1,1,0.3218,74,NumPy cosine search
+180,18,0.1,7,Who do I contact if I have a workplace conflict?,1,1,0.3804,74,NumPy cosine search
+180,36,0.2,3,How many PTO days do new hires get in their first year?,1,1,0.5366,75,NumPy cosine search
+180,36,0.2,3,What is the deadline to enroll in benefits after starting?,1,1,0.5313,75,NumPy cosine search
+180,36,0.2,3,What password requirements do I need to set on Day 1?,1,1,0.3764,75,NumPy cosine search
+180,36,0.2,3,Does the company match 401(k) contributions?,1,1,0.3575,75,NumPy cosine search
+180,36,0.2,3,Who do I contact if I have a workplace conflict?,1,1,0.3831,75,NumPy cosine search
+180,36,0.2,5,How many PTO days do new hires get in their first year?,1,1,0.4994,75,NumPy cosine search
+180,36,0.2,5,What is the deadline to enroll in benefits after starting?,1,1,0.5009,75,NumPy cosine search
+180,36,0.2,5,What password requirements do I need to set on Day 1?,1,1,0.3406,75,NumPy cosine search
+180,36,0.2,5,Does the company match 401(k) contributions?,1,1,0.3324,75,NumPy cosine search
+180,36,0.2,5,Who do I contact if I have a workplace conflict?,1,1,0.3625,75,NumPy cosine search
+180,36,0.2,7,How many PTO days do new hires get in their first year?,1,1,0.4641,75,NumPy cosine search
+180,36,0.2,7,What is the deadline to enroll in benefits after starting?,1,1,0.4726,75,NumPy cosine search
+180,36,0.2,7,What password requirements do I need to set on Day 1?,1,1,0.32,75,NumPy cosine search
+180,36,0.2,7,Does the company match 401(k) contributions?,1,1,0.3117,75,NumPy cosine search
+180,36,0.2,7,Who do I contact if I have a workplace conflict?,1,1,0.3417,75,NumPy cosine search
+240,24,0.1,3,How many PTO days do new hires get in their first year?,1,1,0.5501,60,NumPy cosine search
+240,24,0.1,3,What is the deadline to enroll in benefits after starting?,1,1,0.5337,60,NumPy cosine search
+240,24,0.1,3,What password requirements do I need to set on Day 1?,1,1,0.3635,60,NumPy cosine search
+240,24,0.1,3,Does the company match 401(k) contributions?,1,1,0.3646,60,NumPy cosine search
+240,24,0.1,3,Who do I contact if I have a workplace conflict?,1,1,0.3621,60,NumPy cosine search
+240,24,0.1,5,How many PTO days do new hires get in their first year?,1,1,0.4722,60,NumPy cosine search
+240,24,0.1,5,What is the deadline to enroll in benefits after starting?,1,1,0.5057,60,NumPy cosine search
+240,24,0.1,5,What password requirements do I need to set on Day 1?,1,1,0.3307,60,NumPy cosine search
+240,24,0.1,5,Does the company match 401(k) contributions?,1,1,0.3365,60,NumPy cosine search
+240,24,0.1,5,Who do I contact if I have a workplace conflict?,1,1,0.3338,60,NumPy cosine search
+240,24,0.1,7,How many PTO days do new hires get in their first year?,1,1,0.4302,60,NumPy cosine search
+240,24,0.1,7,What is the deadline to enroll in benefits after starting?,1,1,0.479,60,NumPy cosine search
+240,24,0.1,7,What password requirements do I need to set on Day 1?,1,1,0.3093,60,NumPy cosine search
+240,24,0.1,7,Does the company match 401(k) contributions?,1,1,0.3148,60,NumPy cosine search
+240,24,0.1,7,Who do I contact if I have a workplace conflict?,1,1,0.3204,60,NumPy cosine search
+240,48,0.2,3,How many PTO days do new hires get in their first year?,1,1,0.5374,61,NumPy cosine search
+240,48,0.2,3,What is the deadline to enroll in benefits after starting?,1,1,0.5337,61,NumPy cosine search
+240,48,0.2,3,What password requirements do I need to set on Day 1?,1,1,0.3629,61,NumPy cosine search
+240,48,0.2,3,Does the company match 401(k) contributions?,1,1,0.3587,61,NumPy cosine search
+240,48,0.2,3,Who do I contact if I have a workplace conflict?,1,1,0.3741,61,NumPy cosine search
+240,48,0.2,5,How many PTO days do new hires get in their first year?,1,1,0.4646,61,NumPy cosine search
+240,48,0.2,5,What is the deadline to enroll in benefits after starting?,1,1,0.4996,61,NumPy cosine search
+240,48,0.2,5,What password requirements do I need to set on Day 1?,1,1,0.3306,61,NumPy cosine search
+240,48,0.2,5,Does the company match 401(k) contributions?,1,1,0.3386,61,NumPy cosine search
+240,48,0.2,5,Who do I contact if I have a workplace conflict?,1,1,0.3464,61,NumPy cosine search
+240,48,0.2,7,How many PTO days do new hires get in their first year?,1,1,0.4227,61,NumPy cosine search
+240,48,0.2,7,What is the deadline to enroll in benefits after starting?,1,1,0.4717,61,NumPy cosine search
+240,48,0.2,7,What password requirements do I need to set on Day 1?,1,1,0.3118,61,NumPy cosine search
+240,48,0.2,7,Does the company match 401(k) contributions?,1,1,0.3176,61,NumPy cosine search
+240,48,0.2,7,Who do I contact if I have a workplace conflict?,1,1,0.3268,61,NumPy cosine search

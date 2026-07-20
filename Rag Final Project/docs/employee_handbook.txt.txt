@@ -1,0 +1,41 @@
+# Employee Handbook Excerpt
+
+**Company Policies — New Hire Reference**
+
+## Paid Time Off (PTO)
+- Full-time employees accrue PTO at a rate of 1.25 days per month, totaling 15 days in your first year.
+- PTO accrual increases to 20 days per year after 3 years of continuous employment, and 25 days per year after 5 years.
+- PTO requests must be submitted through the Workday portal at least 5 business days in advance for planned time off.
+- Unused PTO can roll over up to a maximum of 5 days into the next calendar year. Any unused PTO beyond 5 days is forfeited on December 31.
+- New hires may begin using accrued PTO after completing 90 days of employment.
+
+## Sick Leave
+- Employees receive 8 sick days per calendar year, separate from PTO.
+- Sick leave does not require advance notice but must be reported to your manager before your scheduled start time.
+- A doctor's note is required for sick leave lasting more than 3 consecutive days.
+
+## Remote Work Policy
+- Employees may work remotely up to 3 days per week, subject to manager approval.
+- Fully remote arrangements require VP-level approval and are evaluated on a role-by-role basis.
+- All remote work requires a stable internet connection and use of the company VPN when accessing internal systems.
+
+## Dress Code
+- The company follows a business casual dress code Monday through Thursday.
+- Fridays are casual dress days (jeans permitted; no ripped clothing or graphic t-shirts with offensive content).
+- Client-facing roles must adhere to business professional standards during in-person client meetings, regardless of day of week.
+
+## Performance Reviews
+- Formal performance reviews are conducted twice per year: a mid-year check-in (June) and an annual review (December).
+- New hires receive a 90-day performance check-in with their manager in addition to the standard review cycle.
+- Compensation adjustments, if applicable, are communicated following the annual December review.
+
+## Reporting Structure
+- Your direct manager is your primary point of contact for day-to-day questions, PTO approval, and performance feedback.
+- Escalations beyond your manager should go to your manager's manager (skip-level), listed in your Workday org chart.
+- HR Business Partners are available for confidential concerns, workplace conflicts, or policy clarification and can be reached at hrpartners@company.com.
+
+## Code of Conduct
+- All employees must complete annual Code of Conduct and Anti-Harassment training, assigned automatically through the Learning Portal within your first 30 days.
+- Violations of the Code of Conduct should be reported to HR or through the anonymous Ethics Hotline at 1-800-555-0199.
+
+

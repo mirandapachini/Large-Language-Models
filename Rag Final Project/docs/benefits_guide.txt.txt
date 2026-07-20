@@ -1,0 +1,44 @@
+---
+
+# Benefits Enrollment Guide
+
+**New Hire Benefits Guide**
+
+## Enrollment Deadline
+- New hires have **30 days from their start date** to enroll in benefits through the Workday Benefits portal.
+- If you do not enroll within 30 days, you will automatically be assigned the default plan (Basic PPO, employee-only coverage) and must wait until the next Open Enrollment period (November) to make changes, unless you experience a qualifying life event.
+
+## Health Insurance Plans
+- **Basic PPO**: Lower monthly premium, higher deductible ($2,500 individual). Company covers 70% of premium cost.
+- **Premium PPO**: Higher monthly premium, lower deductible ($500 individual). Company covers 70% of premium cost.
+- **HDHP + HSA**: High-deductible plan paired with a Health Savings Account. Company contributes $750/year to your HSA if you enroll in this plan.
+- Dependent coverage (spouse/domestic partner and children) is available on all three plans at an additional employee cost.
+
+## Dental and Vision
+- Dental coverage is optional and costs $18/month for employee-only coverage, $45/month for family coverage.
+- Vision coverage is optional and costs $8/month for employee-only coverage, $20/month for family coverage.
+
+## 401(k) Retirement Plan
+- Eligible to enroll immediately upon hire.
+- Company matches 100% of employee contributions up to 4% of salary, then 50% of the next 2% (effectively up to 5% match).
+- Enrollment and contribution changes can be made anytime through the Fidelity NetBenefits portal, not just during Open Enrollment.
+- Vesting schedule: employee contributions are always 100% vested; company match vests 20% per year, fully vested after 5 years.
+
+## Life and Disability Insurance
+- Basic life insurance (1x annual salary) is provided free of charge to all full-time employees.
+- Supplemental life insurance can be purchased at additional cost, up to 5x annual salary, with proof of good health for amounts over $500,000.
+- Short-term and long-term disability insurance are included at no cost for all full-time employees after 90 days of employment.
+
+## Flexible Spending Accounts (FSA)
+- Healthcare FSA: contribute up to $3,200/year pre-tax for eligible medical expenses.
+- Dependent Care FSA: contribute up to $5,000/year pre-tax for childcare or eldercare expenses.
+- FSA elections must be renewed every year during Open Enrollment; funds do not automatically roll over except up to $640 for the Healthcare FSA.
+
+## Questions
+- Contact the Benefits Team at benefits@company.com or schedule a 1:1 benefits consultation through the HR Portal during your first 30 days.
+
+---
+
+Save these as two more `.txt` files in your `docs` folder (e.g. `employee_handbook.txt` and `benefits_guide.txt`). Between these two and the IT checklist, you now have three documents covering distinct topics (policies/PTO, benefits/enrollment, IT setup) — good variety for demonstrating retrieval actually distinguishing between source documents when you ask different types of questions.
+
+Want me to also write the 4-5 example onboarding questions to swap into `app.py`, or start on the rewritten `rag_engine.py` system prompt next?
